@@ -27,6 +27,8 @@
     "all"
   ],
   "material": [
+    "pu",
+    "synthetic",
     "fabric",
     "cotton",
     "polyester",
@@ -85,6 +87,7 @@
     "tight"
   ],
   "type": [
+    "trackpants",
     "tie",
     "dress",
     "romper",

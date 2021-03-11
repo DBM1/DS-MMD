@@ -8,7 +8,7 @@ def contain_substr(text, substr):
 
 
 def extract_number(text):
-    return extract_re(text, r'(\d+\.?\d*|\d*\.?\d+)[^st|^nd|^rd|^th]')
+    return extract_re(text, r' (\d+\.?\d*|\d*\.?\d+)[^st|^nd|^rd|^th] ')
 
 
 def extract_index(text):
@@ -30,5 +30,5 @@ def extract_re(text, pattern):
 
 
 if __name__ == '__main__':
-    print(extract_words(
-        'Are the products in the 2nd, 4th and 5th images and tes-tt - suited for 30th degree delicate clean?'))
+    print(extract_number(
+        'does celebrity cel_1129 usually wear the kind of travel bag in the 2nd image'))
